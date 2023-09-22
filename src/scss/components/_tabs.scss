@@ -1,0 +1,13 @@
+.akost-tabs {
+  &--tab {
+    @apply max-w-min whitespace-nowrap;
+
+    &.swiper-slide-thumb-active, &.swiper-slide-active {
+      @apply tab-active;
+    }
+  }
+
+  &--content {
+    @apply mt-4;
+  }
+}

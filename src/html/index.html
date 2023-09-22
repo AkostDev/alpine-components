@@ -1,5 +1,17 @@
 @@include('blocks/header.html')
 
-
+<section class="prose">
+    <h2>Tabs</h2>
+    <p>Компонент табов</p>
+    <div class="not-prose">
+        @@include('components/tabs.html')
+    </div>
+</section>
+<div class="divider"></div>
+<section class="prose">
+    <h2>Lazy Loading</h2>
+    <p>Компонент работает через <a href="https://alpinejs.dev/plugins/intersect" target="_blank" class="link">x-intersect</a>. Если он вне зоны видимости, то контент не загрузится, пока не попадёт в зону видимости.</p>
+    @@include('components/lazy-loading.html')
+</section>
 
 @@include('blocks/footer.html')
